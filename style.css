@@ -6,13 +6,16 @@
 a.nav-link{
     transition: 0.5s ease
 } 
-a.nav-link.active {
-    background: #ef6603;
+ul.nav.nav-tabs {
+    border: none;
 }
-/* .navbar-nav .nav-link .active{
-    padding: 10px;
+a.nav-link.active {
     background: orange !important;
-} */
+    border: none;
+    color: white !important;
+    text-decoration: none;
+    border-radius: 34px;
+} 
 .right-nav-text{
     font-size: 15px;
 }
