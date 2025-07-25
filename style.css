@@ -13,6 +13,12 @@
 }
 a.nav-link{
     transition: 0.5s ease
+}
+.nav-tabs .nav-link {
+    margin-bottom: calc(-1 * var(--bs-nav-tabs-border-width));
+    /* border: var(--bs-nav-tabs-border-width) solid transparent; */
+    /* border-top-left-radius: var(--bs-nav-tabs-border-radius); */
+    /* border-top-right-radius: var(--bs-nav-tabs-border-radius); */
 } 
 ul.nav.nav-tabs {
     border: none;
@@ -87,7 +93,7 @@ ul.navbar-nav {
 }
 
 /* bottom left-right text */
-.sec-2-left-text{
+.sec-2-left-text li{
 
 }
 .sec-2-left-text ul{
@@ -117,25 +123,38 @@ ul.navbar-nav {
 
 /* section 3 */
 .sec-3-icon-text {
-    background: #ef6603;
-    padding: 14px 24px;
+    color: black;
+    width: 99%;
+    /* padding: 14px 24px; */
+       padding: 9px 9px;
     align-items: center;
     display: flex;
-    gap: 5px;
+    gap: 10px;
 }
 .sec-3-icon-text i{
-    color: white;
-    font-size: 52px;
+    color: black;
+    font-size: 2.5rem;
 }
-.sec-3-icon-text p{
-    font-weight: 500;
+/* .sec-3-cont li{
+    margin: 20px 9px !important;
+} */
+.sec-3-cont a.nav-link.active i {
     color: white;
-    margin: 11px 0;
+}
+.sec-3-cont a.nav-link.active p{
+    color: white;
+}
+.sec-3-cont-icon-text p{
+    font-weight: 500;
+    margin: 0;
     font-size: 17px;
 }
 .sec-3-left-box-icon-txt{
     gap: 5px;
     display: flex;
+}
+.sec-3-cont ul.nav.nav-pills {
+    gap: 20px;
 }
 .sec-3-unorderd ul{
     padding: 0;
@@ -144,8 +163,18 @@ ul.navbar-nav {
 .sec-3-left-box-icon-txt i{
     color: #ef6603;
 }
-.sec-3-bottom-txt{
-    
+.sec-3-cont a.nav-link.active {
+    background: #ef6603 !important;
+    border: 1px solid black;
+    color: white !important;
+    text-decoration: none;
+    border-radius: 0;
+}
+.sec-3-cont a.nav-link {
+    border: 1px solid black;
+    color: white !important;
+    text-decoration: none;
+    border-radius: 0;
 }
 .sec-3-right-box img{
     width: 100%;
