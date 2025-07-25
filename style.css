@@ -3,6 +3,14 @@
     font-weight: 600;
     font-size: 30px;
 }
+.right-nav-text a{
+    color: white;
+    border: none;
+}
+.right-nav-text a:hover{
+    color: white;
+    border: none;
+}
 a.nav-link{
     transition: 0.5s ease
 } 
@@ -10,12 +18,15 @@ ul.nav.nav-tabs {
     border: none;
 }
 a.nav-link.active {
-    background: orange !important;
+    background: #ef6603 !important;
     border: none;
     color: white !important;
     text-decoration: none;
     border-radius: 34px;
 } 
+a.nav-link:hover {
+    border: none;
+}
 .right-nav-text{
     font-size: 15px;
 }
